@@ -8,7 +8,7 @@ from bacpypes.pdu import Address
 DEVICE_ID = 12345
 DEVICE_NAME = "MyBACpypesDevice"
 VENDOR_ID = 15  # Example vendor ID
-IP_ADDRESS = "192.168.1.9/24" # Your device's IP address and subnet mask
+IP_ADDRESS = "192.168.1.5/24" # Your device's IP address and subnet mask
 
 class WhoIsIAmApplication(BIPSimpleApplication):
     def __init__(self, local_device, address):
